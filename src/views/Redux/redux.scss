@@ -1,0 +1,24 @@
+.listContact-Container{
+
+    width: 500px;
+    margin: 0 auto;
+
+    .listContact-title{
+        color: aqua;
+    }
+    .listContact-Content{
+        margin-top: 20px;
+        .Contact-child{
+            
+            &:first-child{
+                border-top: 1px solid gray;
+            }
+            
+            border-bottom: 1px solid gray;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+            padding: 5px;
+            
+        }
+    }
+}

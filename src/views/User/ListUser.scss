@@ -1,0 +1,23 @@
+.listUser-Container{
+
+    width: 500px;
+    margin: 0 auto;
+
+    .listUser-title{
+        color: aqua;
+    }
+    .listUser-Content{
+        .user-child{
+            
+            &:first-child{
+                border-top: 1px solid gray;
+            }
+            
+            border-bottom: 1px solid gray;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+            padding: 5px;
+            
+        }
+    }
+}
